@@ -1,0 +1,15 @@
+{
+  "name": "grunt-githooks-commentator",
+  "version": "0.1.0",
+  "description": "Template for Grunt with githooks that tells you what it thinks of your commits ",
+  "author": "Olly Freeman",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-nodeunit": "^0.4.1",
+    "grunt-githooks": "^0.3.1"
+  },
+  "dependencies": {
+    "nodeunit": "^0.9.0"
+  }
+}
