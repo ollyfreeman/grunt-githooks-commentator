@@ -11,11 +11,15 @@ Clone the repo, and install with `npm install`.
 
 Then turn up the volume and make some commits (some that will pass the Grunt tasks, some that will fail), and enjoy!
 
+##Trigger tests manually
+
+To ensure that you don't get absued with bad commits, run `grunt` at any time to manually trigger the grunt tasks.
+
 ##Customization
 
 The `passArray` and `failArray` in `hooks_custom_templates/pre-commit.js` hold the messages that will be read out when a commit passes or fails the build tasks.
 
-If this file is changed, apply these changes by running `grunt`.
+Apply changes made to this file by running `grunt githooks`.
 
 ##Platforms
 
