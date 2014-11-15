@@ -24,5 +24,4 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-contrib-nodeunit');
     grunt.loadNpmTasks('grunt-githooks');
 
-    grunt.registerTask('default', ['githooks']);
-}
+    grunt.registerTask('default', ['jshint', 'nodeunit']);}
