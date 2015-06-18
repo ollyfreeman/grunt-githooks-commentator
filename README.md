@@ -5,6 +5,10 @@ This skeleton project shows a simple use case of Grunt (with jslint and nodeunit
 
 In addition, you will receive a spoken message commenting on your commit.
 
+##Requirements
+
+`node` and `grunt`.
+
 ##Setup
 
 Clone the repo, and install with `npm install`. 
